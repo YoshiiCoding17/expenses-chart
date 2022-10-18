@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Expenses chart component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <main class="contenedor card">
+
+    <div class="card__header">
+      <p class="card__balance">My balance<span class="card__balance-price block">$921.48</span></p>
+      <div class="circles">
+        <div class="circles__circle"></div>
+        <div class="circles__circle circles__circle--black"></div>
+      </div>
+    </div>
+
+    <div class="card__body">
+      <h1 class="card__title">Spending - Last 7 days</h1>
+      <div class="card__spending">
+
+        <div class="bar__container">
+          <div class="bar__block bar__block1"></div>
+          <div class="bar bar1" name="mon"></div>
+          <p class="bar__p"></p>
+        </div>
+        <div class="bar__container">
+          <div class="bar__block bar__block2"></div>
+          <div class="bar bar2" name="tue"></div>
+          <p class="bar__p"></p>
+        </div>
+        <div class="bar__container">
+          <div class="bar__block bar__block3"></div>
+          <div class="bar bar3" name="wed"></div>
+          <p class="bar__p"></p>
+        </div>
+        <div class="bar__container">
+          <div class="bar__block bar__block4"></div>
+          <div class="bar bar4" name="thu"></div>
+          <p class="bar__p"></p>
+        </div>
+        <div class="bar__container">
+          <div class="bar__block bar__block5"></div>
+          <div class="bar bar5" name="fri"></div>
+          <p class="bar__p"></p>
+        </div>
+        <div class="bar__container">
+          <div class="bar__block bar__block6"></div>
+          <div class="bar bar6" name="sat"></div>
+          <p class="bar__p"></p>
+        </div>
+        <div class="bar__container">
+          <div class="bar__block bar__block7"></div>
+          <div class="bar bar7" name="sun"></div>
+          <p class="bar__p"></p>
+        </div>
+
+      </div>
+      <div class="card__footer">
+        <div>
+          <p class="card__total">Total this month<span class="card__total-span block">$478.33</span></p>
+        </div>
+        <div class="self">
+          <p class="card__percent">+2.4%<span class="card__percent-span block">from last month</span></p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Coded by YoshiiCoding :3 -->
+  <script src="js/app.js" type="module"></script>
+</body>
+</html>
